@@ -1,5 +1,5 @@
 [![Try on repl.it](https://repl-badge.jajoosam.repl.co/try.png)](https://repl.it/@amasad/sane-playground)
-![CI](https://github.com/amasad/sane/workflows/CI/badge.svg)
+![CI](https://github.com/Unity-Billal-mesloub/sane/workflows/CI/badge.svg)
 
 sane
 ----
@@ -12,7 +12,7 @@ Sane aims to be fast, small, and reliable file system watcher. It does that by:
 * Maintains a consistent API across different platforms
 * Where `fs.watch` is not reliable you have the choice of using the following alternatives:
   * [the facebook watchman library](https://facebook.github.io/watchman/)
-  * [the watchexec library](https://github.com/watchexec/watchexec)
+  * [the watchexec library](https://github.com/Unity-Billal-mesloub/watchexec)
   * polling
 
 ## Install
@@ -54,14 +54,11 @@ options:
 * `poll`: puts the watcher in polling mode. Under the hood that means `fs.watchFile`.
 * `watchman`: makes the watcher use [watchman](https://facebook.github.io/watchman/).
 * `watchmanPath`: sets a custom path for `watchman` binary.
-* `watchexec`: makes the watcher use [watchexec](https://github.com/watchexec/watchexec).
+* `watchexec`: makes the watcher use [watchexec](https://github.com/Unity-Billal-mesloub/watchexec).
 * `dot`: enables watching files/directories that start with a dot.
 * `ignored`: a glob, regex, function, or array of any combination.
 
-For the glob pattern documentation, see [micromatch](https://github.com/micromatch/micromatch).
-If you choose to use `watchman` you'll have to [install watchman yourself](https://facebook.github.io/watchman/docs/install.html)).
-If you choose to use `watchexec` you'll have to [install watchexec yourself](https://github.com/watchexec/watchexec)).
-For the ignored options, see [anymatch](https://github.com/es128/anymatch).
+If you choose to use `watchexec` you'll have to [install watchexec yourself](https://github.com/Unity-Billal-mesloub/watchexec)).
 
 ### sane.NodeWatcher(dir, options)
 
@@ -142,9 +139,3 @@ It will watch the given `directory` and run the given <command> every time a fil
 - `sane 'echo "A command ran"' --wait=3`
 - `sane 'echo "A command ran"' -p`
 
-## License
-
-MIT
-
-## Credits
-The CLI was originally based on the [watch CLI](https://github.com/mikeal/watch). Watch is licensed under the Apache License Version 2.0.
