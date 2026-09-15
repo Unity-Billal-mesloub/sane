@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amasad/sane"
+    "url": "https://github.com/Unity-Billal-mesloub/sane"
   },
   "files": [
     "src",
@@ -25,7 +25,7 @@
     "fs",
     "watching"
   ],
-  "author": "amasad",
+  "author": "Unity-Billal-mesloub",
   "license": "MIT",
   "dependencies": {
     "@cnakazawa/watch": "^1.0.3",
@@ -49,9 +49,9 @@
     "node": "10.* || >= 12.*"
   },
   "bugs": {
-    "url": "https://github.com/amasad/sane/issues"
+    "url": "https://github.com/Unity-Billal-mesloub/sane/issues"
   },
-  "homepage": "https://github.com/amasad/sane",
+  "homepage": "https://github.com/Unity-Billal-mesloub/sane",
   "volta": {
     "node": "12.16.1",
     "yarn": "1.22.4"
